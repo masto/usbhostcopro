@@ -146,7 +146,7 @@ void setup()
 
   dbbegin( 115200 );
   dbprintln("Start");
-  consbegin( 115200 );
+  consbegin( 6992 );
 
   if (UsbH.Init())
     dbprintln("USB host did not start.");
